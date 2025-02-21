@@ -10,3 +10,4 @@ public class AgeComparator implements Comparator<Person> {
 //        return o2.age - o1.age ; //내림차순
 //        return Integer.compare(o1.age, o2.age);
     }
+}
