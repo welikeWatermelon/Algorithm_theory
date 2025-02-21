@@ -72,7 +72,7 @@ public class Heap01_Array구현 {
 
             p = ch;
             ch = p*2; //왼자 세팅
-            if (ch + 1 <= heapSize && heap[ch] < heap[ch]) {
+            if (ch + 1 <= heapSize && heap[ch] < heap[ch+1]) {
                 ch+=1; //오자로 교환
             }
         }
